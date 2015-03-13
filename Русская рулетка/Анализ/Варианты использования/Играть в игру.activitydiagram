@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm12="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="82fe06c3-1324-4131-88f3-d7e331d36006" name="Играть в игру" linkedPackageId="727b53c4-1553-438b-bebc-6dc9ef19a71e" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="cd9a87ec-f376-4406-8cee-778b4976ceb8">
+      <elementDefinition Id="76070631-728d-4470-87dc-5649b911b802" />
+      <body>Игрок</body>
+    </comment>
+    <comment Id="0cb588be-5018-4de3-a8d8-f5c9e9ca386d">
+      <elementDefinition Id="98a7d941-4138-4ce6-8bc2-1d2f3b904df5" />
+      <body>Система</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="ebcedd5e-bbb6-4193-aeba-f21a490c6860">
+      <profileInstance Id="8302423a-d624-4b73-9192-59f392916709" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="b6fafd7a-c24f-45b9-b759-b49b301ed911">
+      <profileInstance Id="19a24c7f-55d5-4423-975b-a891a3c82f4a" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="1d7d3026-d331-42aa-b54e-71125a6f8360" name="Играть в игру" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="fb82f480-a5fe-4ea1-b884-b498635a835f" />
+        <nodes>
+          <initialNode Id="76160e35-1f8c-4f1d-aa75-a6efe1cefdfe" name="Initial1" isLeaf="false">
+            <elementDefinition Id="9a7d9dbc-3718-4823-a8ef-f1c24333637d" />
+            <flowNodeTargets>
+              <controlFlow Id="b676cdf0-c7bb-43ed-90fd-42c6e1ff96dd" isLeaf="false">
+                <mergeNodeMoniker Id="9be5f372-2b94-4012-aff5-80c62efe89f2" LastKnownName="Merge1" />
+                <elementDefinition Id="a3b82718-8f52-47a4-912b-43a487cecda3" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="1a97f6d9-40df-4269-b0d1-45a933d5333d" name="Крутить барабан" isLeaf="false">
+            <elementDefinition Id="7be50a74-2495-4a8b-a5d0-faa26c5b40f4" />
+            <flowNodeTargets>
+              <controlFlow Id="2b537f5f-6c06-4fb3-b8a0-8bd7d06a3545" isLeaf="false">
+                <opaqueActionMoniker Id="ee27ca65-d166-44e4-85aa-cd94a95b613f" LastKnownName="Сообщить о готовности к выстрелу" />
+                <elementDefinition Id="7a4422eb-e8bf-45a2-9612-96ace168d16f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="ee27ca65-d166-44e4-85aa-cd94a95b613f" name="Сообщить о готовности к выстрелу" isLeaf="false">
+            <elementDefinition Id="bc7ff24e-8350-4974-beb3-4c039a6cf6ef" />
+            <flowNodeTargets>
+              <controlFlow Id="bbf9b11a-fa6f-40ba-a4fe-a38d6349abdc" isLeaf="false">
+                <opaqueActionMoniker Id="da5da322-2edd-46fd-bf49-9343cd4340fe" LastKnownName="Спустить курок" />
+                <elementDefinition Id="0526ba61-4876-4b83-956e-bba2616961ef" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="da5da322-2edd-46fd-bf49-9343cd4340fe" name="Спустить курок" isLeaf="false">
+            <elementDefinition Id="5f7b1779-3883-4bed-8e59-47721d2b319e" />
+            <flowNodeTargets>
+              <controlFlow Id="753e7715-4261-44ce-a166-fadbba3d8883" isLeaf="false">
+                <opaqueActionMoniker Id="cd0539e5-7ea9-4409-9350-0175d9d7047f" LastKnownName="Сообщить результаты попытки" />
+                <elementDefinition Id="71c190aa-2df5-42cc-b53e-04088cfcf3e8" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="cd0539e5-7ea9-4409-9350-0175d9d7047f" name="Сообщить результаты попытки" isLeaf="false">
+            <elementDefinition Id="78e910c5-e441-4f59-809f-6feeedf5bc13" />
+            <flowNodeTargets>
+              <controlFlow Id="a1dc1378-4b9b-4acd-8c90-72dfd8aeca31" isLeaf="false">
+                <decisionNodeMoniker Id="30ad8ff1-8640-4bee-a09c-c01319a004ba" LastKnownName="Decision2" />
+                <elementDefinition Id="ab2cb363-4fe0-4735-8ce1-f247875ca2df" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="30ad8ff1-8640-4bee-a09c-c01319a004ba" name="Decision2" isLeaf="false">
+            <elementDefinition Id="d0b5d75b-fed1-48cc-a285-bf35875bf129" />
+            <flowNodeTargets>
+              <controlFlow Id="1c7962c4-42a5-412a-b786-4a1fbc3b347c" guard="игрок себя убил" isLeaf="false">
+                <opaqueActionMoniker Id="96379ba5-c65e-48c5-9d1c-a3c27e02ef7b" LastKnownName="Сбросить очки игрока" />
+                <elementDefinition Id="bcc24b6f-b590-4548-8814-caa36002e799" />
+              </controlFlow>
+              <controlFlow Id="9b86c408-3d7a-44ac-a149-f21823f20aea" guard="игрок себя не убил" isLeaf="false">
+                <opaqueActionMoniker Id="b4067004-c022-4517-967d-bdde178e6306" LastKnownName="Начислить 100 очков" />
+                <elementDefinition Id="cb09046d-76e1-4c88-a7bb-1aa83b3f0840" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="96379ba5-c65e-48c5-9d1c-a3c27e02ef7b" name="Сбросить очки игрока" isLeaf="false">
+            <elementDefinition Id="ce6c90de-fba4-464d-b28f-505a2469eb8f" />
+            <flowNodeTargets>
+              <controlFlow Id="9abe5a10-60a6-405f-872c-88f30e598ead" isLeaf="false">
+                <activityFinalNodeMoniker Id="77b53e6d-f9a8-4537-8f0c-c38a2518e8fc" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="ce2c6a9e-8cb8-44f3-bd85-13575f0372d7" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="77b53e6d-f9a8-4537-8f0c-c38a2518e8fc" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="dc62c4e9-18fd-43f4-8671-ee96dfd63830" />
+          </activityFinalNode>
+          <opaqueAction Id="b4067004-c022-4517-967d-bdde178e6306" name="Начислить 100 очков" isLeaf="false">
+            <elementDefinition Id="8ce453f8-55ed-4e11-b5ec-8637404b31e2" />
+            <flowNodeTargets>
+              <controlFlow Id="ddbd5899-b0f2-49a6-a4e7-330a2799e0bd" isLeaf="false">
+                <decisionNodeMoniker Id="8dd6bf8d-a35d-4bb3-8f5c-633bcb551119" LastKnownName="Decision3" />
+                <elementDefinition Id="a4ded35f-449f-44b0-8df0-2d49c8558fc8" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="8dd6bf8d-a35d-4bb3-8f5c-633bcb551119" name="Decision3" isLeaf="false">
+            <elementDefinition Id="06d3f3cc-0957-488e-9371-8680247dac0b" />
+            <flowNodeTargets>
+              <controlFlow Id="3e83c93d-49c9-45db-9e1e-02ea804be5c2" guard="игрок себя не убил 3 и более раз" isLeaf="false">
+                <opaqueActionMoniker Id="6f2ea1a2-ef9c-450c-8360-6f1264b03b11" LastKnownName="Увеличить очки от 2 до 5 раз" />
+                <elementDefinition Id="f983e6a8-f6a1-4b3e-83f0-2e662cf43ae2" />
+              </controlFlow>
+              <controlFlow Id="f7911409-301a-40d9-8e4f-d08351f100d1" guard="игрок хочет сделать еще один выстрел" isLeaf="false">
+                <mergeNodeMoniker Id="9be5f372-2b94-4012-aff5-80c62efe89f2" LastKnownName="Merge1" />
+                <elementDefinition Id="c8311c8c-59b2-458d-a057-8b3d22acc20d" />
+              </controlFlow>
+              <controlFlow Id="22ab8fc8-c284-46e4-a69f-cb3903199c1a" isLeaf="false">
+                <mergeNodeMoniker Id="ce78fd61-206a-476b-a260-3c2e7ee9f257" LastKnownName="Merge2" />
+                <elementDefinition Id="8f910e81-d838-429f-bc1e-a79936739f36" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="6f2ea1a2-ef9c-450c-8360-6f1264b03b11" name="Увеличить очки от 2 до 5 раз" isLeaf="false">
+            <elementDefinition Id="aaf785ea-847b-4e00-ba34-6b93f7967acb" />
+            <flowNodeTargets>
+              <controlFlow Id="d3f5b4a8-2758-4df4-9bd1-5a4a7dbbe67e" isLeaf="false">
+                <mergeNodeMoniker Id="ce78fd61-206a-476b-a260-3c2e7ee9f257" LastKnownName="Merge2" />
+                <elementDefinition Id="de67f50a-c0d6-4868-a0f2-0158368a0fe1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode Id="9be5f372-2b94-4012-aff5-80c62efe89f2" name="Merge1" isLeaf="false">
+            <elementDefinition Id="e9e008b4-cf41-4258-b70f-d1dddacbc9ce" />
+            <flowNodeTargets>
+              <controlFlow Id="7edcbb91-c343-463d-a28f-cc227c1aecbf" isLeaf="false">
+                <opaqueActionMoniker Id="1a97f6d9-40df-4269-b0d1-45a933d5333d" LastKnownName="Крутить барабан" />
+                <elementDefinition Id="fe9c4068-8fbd-43cb-a3f2-f71a9b06fc81" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <opaqueAction Id="c7fb53ad-a52c-4169-980e-5774357f8411" name="Предложить сохранить результаты игры" isLeaf="false">
+            <elementDefinition Id="c48c68c8-950a-41a0-81ad-a1099bec2e0a" />
+            <flowNodeTargets>
+              <controlFlow Id="a2d1109b-1694-487a-b5cd-c656dcab1df2" isLeaf="false">
+                <opaqueActionMoniker Id="d9b6acd2-12b1-443a-9a4a-4cb2e847016a" LastKnownName="Ввести имя" />
+                <elementDefinition Id="6badb7e4-9364-43c9-a805-879f63056df3" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode Id="ce78fd61-206a-476b-a260-3c2e7ee9f257" name="Merge2" isLeaf="false">
+            <elementDefinition Id="f5f651b8-39ff-4da1-aa9b-5400aa7639fc" />
+            <flowNodeTargets>
+              <controlFlow Id="62269dbb-67ab-4757-8d12-280ff8e6ead0" isLeaf="false">
+                <opaqueActionMoniker Id="c7fb53ad-a52c-4169-980e-5774357f8411" LastKnownName="Предложить сохранить результаты игры" />
+                <elementDefinition Id="309740f0-7201-4127-a5d2-6c839f07e300" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <opaqueAction Id="d9b6acd2-12b1-443a-9a4a-4cb2e847016a" name="Ввести имя" isLeaf="false">
+            <elementDefinition Id="ca7ed367-5284-4e6d-8117-6aa55717f977" />
+            <flowNodeTargets>
+              <controlFlow Id="b7822ad3-2fac-49f0-9b32-6659bc073026" isLeaf="false">
+                <decisionNodeMoniker Id="55c544c3-90e5-4695-a458-f0b37eec37f4" LastKnownName="Decision1" />
+                <elementDefinition Id="c81c3f6d-a65d-4d2f-bbd7-ef1a6216b076" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="55c544c3-90e5-4695-a458-f0b37eec37f4" name="Decision1" isLeaf="false">
+            <elementDefinition Id="8f4fefa4-bd56-408a-895a-b01d09ae919a" />
+            <flowNodeTargets>
+              <controlFlow Id="e5984a12-357a-4cd6-8119-5d78b011e90e" guard="БД доступна" isLeaf="false">
+                <opaqueActionMoniker Id="6e8c09da-d231-4846-a975-47e420685109" LastKnownName="Сохранить результаты" />
+                <elementDefinition Id="4fd14a4a-da9c-4255-9ce4-95177804036c" />
+              </controlFlow>
+              <controlFlow Id="978b9a24-cc03-4eab-868f-5257aab63ce4" guard="БД недоступна" isLeaf="false">
+                <opaqueActionMoniker Id="4f5d49c7-d32e-4cc6-8d65-6eaf8f571ae8" LastKnownName="Сообщить об ошибке" />
+                <elementDefinition Id="7463bc65-7ba4-4f77-9192-93e748b25662" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="4f5d49c7-d32e-4cc6-8d65-6eaf8f571ae8" name="Сообщить об ошибке" isLeaf="false">
+            <elementDefinition Id="1c1f686b-b79a-4bc3-bdf5-ee0b5fdbed3f" />
+            <flowNodeTargets>
+              <controlFlow Id="918870a6-fb2c-419e-b244-ec6bb0d5b93c" isLeaf="false">
+                <activityFinalNodeMoniker Id="6b59c620-9fa6-4503-be39-6cbce126273e" LastKnownName="ActivityFinal2" />
+                <elementDefinition Id="6f9b1226-eb83-490b-b3c7-0f707f3e4091" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="6b59c620-9fa6-4503-be39-6cbce126273e" name="ActivityFinal2" isLeaf="false">
+            <elementDefinition Id="8cb0dc8b-1311-4d33-a418-e889a9e71d7b" />
+          </activityFinalNode>
+          <opaqueAction Id="6e8c09da-d231-4846-a975-47e420685109" name="Сохранить результаты" isLeaf="false">
+            <elementDefinition Id="0d263d34-9e6c-49ad-84fd-6f9728a1eaea" />
+            <flowNodeTargets>
+              <controlFlow Id="bbd9165b-d313-4b7e-a79a-33326a018bdb" isLeaf="false">
+                <activityFinalNodeMoniker Id="6b59c620-9fa6-4503-be39-6cbce126273e" LastKnownName="ActivityFinal2" />
+                <elementDefinition Id="11d504a3-e47a-4f87-9fb9-d4fa778b9075" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="727b53c4-1553-438b-bebc-6dc9ef19a71e" name="Русская рулетка">
+    <elementDefinition Id="4603ae17-f32c-4a8b-8fa5-2ae56be3c66b" />
+  </package>
+</activityRootModel>

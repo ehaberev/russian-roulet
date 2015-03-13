@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="f68f2cbe-34db-4c70-a175-6d6ef9f9503e" name="Компоненты системы" linkedPackageId="fc79af4c-2d46-4bdf-a841-2ffe23a19baf" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <ownedCommentsInternal>
+    <comment Id="2e21d8c9-28f9-4a59-86a3-38666edc8cf7">
+      <elementDefinition Id="f5cd6b3f-1f47-4eb8-b7ab-2dd3a776752d" />
+      <body>Сторонняя сборка (стандартный Framework от Microsoft)</body>
+      <annotatedElements>
+        <componentMoniker Id="7599fe05-ae38-4d3d-97e9-b322be1063b4" LastKnownName="EntityFramework" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="2a788b13-bd2f-43d8-9f14-670990a3635a" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="c3d22a6a-8b9b-40ab-ba1e-77e8d6851d26" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="3302392e-163f-4712-9754-ca6b8be41ccd">
+          <propertyInstance Id="a9367a44-2813-427b-b831-f6be160f763d" name="BaseName">
+            <elementDefinition Id="f4e87154-365e-4c45-b65d-c6330de35d49" />
+          </propertyInstance>
+          <elementDefinition Id="afe4ecba-f42c-4d41-8cca-3e39fc883bf7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c71ab228-b983-4c8e-8815-3287e3048215">
+          <propertyInstance Id="a648f25c-fa97-46bf-9b1d-7545aeda21f3" name="ClrAttributes">
+            <elementDefinition Id="e2633b3e-d096-4c79-b07d-800e1ff92f8b" />
+          </propertyInstance>
+          <elementDefinition Id="8cb2ae4c-be60-4d00-a240-c0b9a71b1277" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e8a059fc-9f76-417a-b541-1d207cfcf8ce">
+          <propertyInstance Id="a07dbc11-3b9d-4c95-9b1a-57c57c9a00a2" name="Usings">
+            <elementDefinition Id="173dd455-24dc-49af-b5bd-60cb38482cd8" />
+          </propertyInstance>
+          <elementDefinition Id="b6410607-c717-4ed4-a450-9783625c2a0f" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="1c316505-d2ae-4cda-8a93-2a0bfa4567b0" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="3fb5b46c-4ad4-4627-b813-5e4deca65403" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="81c44418-6940-4237-be4d-e9abd0463fb9">
+          <propertyInstance Id="20ac1f97-2121-40a9-a402-e80bc0b4ab5c" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="70b1554e-f75f-49ac-8f56-9f81ca206864" />
+          </propertyInstance>
+          <elementDefinition Id="6f74bbab-ef40-44be-b36f-0764818a1afe" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9b7967dc-9bb6-4570-943b-fcf4160ed653">
+          <propertyInstance Id="59b6ba0f-b91d-4c8f-96cf-936210f20913" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="8504f8e7-910a-44c8-8873-a48a87120833" />
+          </propertyInstance>
+          <elementDefinition Id="c539ae74-5a49-42cc-8224-95c36d5abba9" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="51c7bf98-6ff5-4b72-8589-d355ed5a0e27">
+          <propertyInstance Id="a35e57f4-2ca1-4d4f-9579-e4e83ff5b229" name="ProjectPath" value="ClassTemplate=..\Русская рулеткаLib\Русская рулеткаLib.csproj|EnumTemplate=..\Русская рулеткаLib\Русская рулеткаLib.csproj|InterfaceTemplate=..\Русская рулеткаLib\Русская рулеткаLib.csproj|StructTemplate=..\Русская рулеткаLib\Русская рулеткаLib.csproj">
+            <elementDefinition Id="5c24f44f-2ad6-4398-94bd-2ffa82e00975" />
+          </propertyInstance>
+          <elementDefinition Id="4d573e4a-1a2a-4b76-a8f7-d2ba51037c8a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="283f35c8-411a-4aee-9d5c-e257e2090202">
+          <propertyInstance Id="d8c53cd0-50f2-434a-9968-810bbf5efdd4" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="a7f20178-a060-485c-ab98-ee02b00e0c67" />
+          </propertyInstance>
+          <elementDefinition Id="82becfde-031d-4354-b887-1e1b34e19b96" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ab131e72-8040-429b-888c-c2cedcaf49ac">
+          <propertyInstance Id="f319310d-6738-4239-a5c4-7b64cface136" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="4ce6a489-6a1a-4206-91b9-0a077ecd7d65" />
+          </propertyInstance>
+          <elementDefinition Id="365a9493-4dca-4e83-94af-8b17a6f2ebd2" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d4471f0b-6e80-434e-9f70-648388d87fef">
+          <propertyInstance Id="e20a31b7-703a-446c-b1d0-3990d9cb0911" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="edf4c5bb-a213-4547-8191-fa826aa7d7ef" />
+          </propertyInstance>
+          <elementDefinition Id="21cd359a-bbed-4dc6-b72e-97f474f4c751" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="89f0edc2-2538-4c2d-8d6d-3954b9d439ca">
+          <propertyInstance Id="9d51ccdd-3198-4c3d-a030-331091148cde" name="Parameters">
+            <elementDefinition Id="97e4c6e7-518d-49df-8ba8-6c0e54d426ff" />
+          </propertyInstance>
+          <elementDefinition Id="e043de90-11f3-4d30-8a85-48041e23a499" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="b2e10eb1-a2f0-4bf1-a533-cbbacd6849cb" name="Killshot.exe" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8f71cc0b-4cc3-4fb2-90b5-76d3f1a3fbd1" />
+        <suppliersInternal>
+          <dependency Id="2492c796-c51d-477d-9017-6e3473b975a0">
+            <componentMoniker Id="054673ea-20d7-481c-abed-268dee51d7a2" LastKnownName="GameLogic.dll" />
+            <elementDefinition Id="b5c78a57-8059-45ab-8ab0-ba26b8268bc9" />
+          </dependency>
+          <dependency Id="f4d5c788-b9dd-41ae-a468-9c1882559ca9">
+            <componentMoniker Id="7599fe05-ae38-4d3d-97e9-b322be1063b4" LastKnownName="EntityFramework" />
+            <elementDefinition Id="43024b77-6111-4718-889e-44f76f83be63" />
+          </dependency>
+          <dependency Id="9441a588-bf1d-4cdc-81c8-bffd055c91bf">
+            <componentMoniker Id="93ce6282-5475-4fbb-8319-dcc7ec549753" LastKnownName="DataLayer.dll" />
+            <elementDefinition Id="2f12fd28-1c7d-4345-8264-82a34f7ba595" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="054673ea-20d7-481c-abed-268dee51d7a2" name="GameLogic.dll" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b01b1479-24d0-4264-9d57-9039c91f3149" />
+        <suppliersInternal>
+          <dependency Id="7f531197-7586-4dc3-b1f0-6ec09dafa38e">
+            <componentMoniker Id="93ce6282-5475-4fbb-8319-dcc7ec549753" LastKnownName="DataLayer.dll" />
+            <elementDefinition Id="0a2cfa6c-8ebf-4a63-ac30-514b53208a55" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="93ce6282-5475-4fbb-8319-dcc7ec549753" name="DataLayer.dll" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e7f3c0c6-e452-4a88-a80a-21c565329d5d" />
+        <suppliersInternal>
+          <dependency Id="970fed4a-3ff5-4da7-95b3-3214ce251216">
+            <componentMoniker Id="7599fe05-ae38-4d3d-97e9-b322be1063b4" LastKnownName="EntityFramework" />
+            <elementDefinition Id="e39dd132-8605-4050-806e-631be9ce7269" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="7599fe05-ae38-4d3d-97e9-b322be1063b4" name="EntityFramework" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="46a47624-de89-4906-8aba-f5a079369ad5" />
+        <suppliersInternal>
+          <dependency Id="352d4ca7-4f38-45d0-a05b-de80cb50461b">
+            <componentMoniker Id="4c89c913-d330-4d28-a206-1abf7c9cabcd" LastKnownName="База данных SQL Server" />
+            <elementDefinition Id="456901ca-d727-4d86-bb3d-17ee697cd656" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="4c89c913-d330-4d28-a206-1abf7c9cabcd" name="База данных SQL Server" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8a01c2ca-e2a9-4dc7-8d39-a3506acb66f4" />
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="fc79af4c-2d46-4bdf-a841-2ffe23a19baf" name="Русская рулетка">
+    <elementDefinition Id="4603ae17-f32c-4a8b-8fa5-2ae56be3c66b" />
+    <profileInstances>
+      <packageHasProfileInstances Id="ad149325-87c6-4d00-a2a4-1a8de0ce4876">
+        <profileInstance Id="5d6c5817-1875-41ff-a8e1-f5ed645452d3" name="TextTemplateBindings">
+          <elementDefinition Id="af3b9852-657e-48ce-9892-7c6aa353df09" />
+        </profileInstance>
+        <elementDefinition Id="0761dfab-06c5-45b8-bbe4-b931694487eb" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="4a1455e5-063a-4329-8ccb-0cd8191f57e3">
+        <profileInstance Id="74c9c0f3-777f-4d6b-855a-8cc9ea6046ce" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="f8448d38-0ebf-4614-a02d-85f1009a233a">
+        <profileInstance Id="34e36590-0333-4db7-8df1-a45896a4f505" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="033a3172-ac4d-4e60-bff2-c6ed3ae7d147">
+        <profileInstance Id="d4d08452-d6df-4aba-9c0e-548c6a7509e0" name="CSharpProfile">
+          <elementDefinition Id="af5d6dc1-5076-44da-b731-bb17871bbf2b" />
+        </profileInstance>
+        <elementDefinition Id="2528b09d-e573-4de3-af13-85daee38bf98" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</componentModel>

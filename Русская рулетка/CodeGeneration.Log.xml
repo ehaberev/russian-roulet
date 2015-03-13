@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-02-28T14:56:38" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2015-02-28T14:56:39" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2015-02-28T14:56:39" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-02-28T14:56:39" Importance="Diagnostic" Text="ProjectPath = ..\Русская рулеткаLib\Русская рулеткаLib.csproj" />
+  <Message Timestamp="2015-02-28T14:56:39" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-02-28T14:56:39" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-02-28T14:56:39" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-02-28T14:56:39" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-02-28T14:56:39" Importance="Medium" Text="Русская рулетка's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'Русская рулетка::GameLogic::Gamer' -  (Class), 'Русская рулетка::GameLogic::Gun' -  (Class), 'Русская рулетка::DataLayer::Scores' -  (Class) " />
+  <Message Timestamp="2015-02-28T14:57:00" Importance="Medium" Text="Project Added: C:\Users\Евгений\documents\visual studio 2013\Projects\Русская рулетка\Русская рулеткаLib\Русская рулеткаLib.csproj" />
+  <Message Timestamp="2015-02-28T14:57:00" Importance="Medium" Text="'Русская рулетка::GameLogic::Gamer' -  (Class) : success (file created) - C:\Users\Евгений\documents\visual studio 2013\Projects\Русская рулетка\Русская рулеткаLib\GeneratedCode\GameLogic\Gamer.cs" />
+  <Message Timestamp="2015-02-28T14:57:01" Importance="Medium" Text="'Русская рулетка::GameLogic::Gun' -  (Class) : success (file created) - C:\Users\Евгений\documents\visual studio 2013\Projects\Русская рулетка\Русская рулеткаLib\GeneratedCode\GameLogic\Gun.cs" />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Medium" Text="'Русская рулетка::DataLayer::Scores' -  (Class) : success (file created) - C:\Users\Евгений\documents\visual studio 2013\Projects\Русская рулетка\Русская рулеткаLib\GeneratedCode\DataLayer\Scores.cs" />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="ProjectPath = ..\Русская рулеткаLib\Русская рулеткаLib.csproj" />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Medium" Text="Русская рулетка's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'Русская рулетка::GameLogic::Gamer' -  (Class), 'Русская рулетка::GameLogic::Gun' -  (Class), 'Русская рулетка::DataLayer::Scores' -  (Class) " />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="'Русская рулетка::GameLogic::Gamer' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="'Русская рулетка::GameLogic::Gun' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="'Русская рулетка::DataLayer::Scores' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="The selection included 5 elements which were not bound to a template." />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="'Русская рулетка::GameLogic' -  (Package): no bound template." />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="'Русская рулетка::GameLogic::' -  (Association): no bound template." />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="'Русская рулетка::GameLogic::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="'Русская рулетка::DataLayer' -  (Package): no bound template." />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="Diagnostic" Text="'c6f47442-c6aa-4cea-a6c9-f52d4f5f0451' -  (Comment): no bound template." />
+  <Message Timestamp="2015-02-28T14:57:02" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>

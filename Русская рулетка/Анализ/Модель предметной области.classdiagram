@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm13="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" dslVersion="1.0.0.0" Id="7025181f-1729-4a85-b88e-94b85d7e4c61" name="Модель предметной области" linkedPackageId="dd24dcc6-ba3a-4cdd-a956-116496316473" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="20e8a4f1-1020-480e-a724-80c4dc480602" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="c3d22a6a-8b9b-40ab-ba1e-77e8d6851d26" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="24a851fc-ede8-4b54-af31-97ca328f6bc1">
+          <propertyInstance Id="96945104-d586-40b5-abc9-0fafff41056f" name="BaseName">
+            <elementDefinition Id="f4e87154-365e-4c45-b65d-c6330de35d49" />
+          </propertyInstance>
+          <elementDefinition Id="afe4ecba-f42c-4d41-8cca-3e39fc883bf7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="dd2aff4f-7306-493c-a7ad-55ecee39186c">
+          <propertyInstance Id="9099374b-0fd8-42f1-b238-941a865a6dc7" name="ClrAttributes">
+            <elementDefinition Id="e2633b3e-d096-4c79-b07d-800e1ff92f8b" />
+          </propertyInstance>
+          <elementDefinition Id="8cb2ae4c-be60-4d00-a240-c0b9a71b1277" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="adbac417-e34e-45f8-8be0-dc663021b3d8">
+          <propertyInstance Id="e7d09e2b-d75c-427a-be17-51337400fd74" name="Usings">
+            <elementDefinition Id="173dd455-24dc-49af-b5bd-60cb38482cd8" />
+          </propertyInstance>
+          <elementDefinition Id="b6410607-c717-4ed4-a450-9783625c2a0f" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="922a2dab-7c40-4fac-8d9e-e79e6480317d" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="3fb5b46c-4ad4-4627-b813-5e4deca65403" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1c24f657-0d40-434a-b981-a33273f8cf3d">
+          <propertyInstance Id="967cb219-7c13-4857-80a2-01892d98b6da" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="70b1554e-f75f-49ac-8f56-9f81ca206864" />
+          </propertyInstance>
+          <elementDefinition Id="6f74bbab-ef40-44be-b36f-0764818a1afe" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="4d3e9d65-3c3b-4594-86d9-d5e9905c73db">
+          <propertyInstance Id="f9f032be-b6e5-4b43-8094-03c8717f8e39" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="8504f8e7-910a-44c8-8873-a48a87120833" />
+          </propertyInstance>
+          <elementDefinition Id="c539ae74-5a49-42cc-8224-95c36d5abba9" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="bddb8a1b-0e3f-42da-b899-2f2699c00ce0">
+          <propertyInstance Id="bfe69787-1aee-4e81-b3ea-88ef0aaa3279" name="ProjectPath" value="ClassTemplate=..\Русская рулеткаLib\Русская рулеткаLib.csproj|EnumTemplate=..\Русская рулеткаLib\Русская рулеткаLib.csproj|InterfaceTemplate=..\Русская рулеткаLib\Русская рулеткаLib.csproj|StructTemplate=..\Русская рулеткаLib\Русская рулеткаLib.csproj">
+            <elementDefinition Id="5c24f44f-2ad6-4398-94bd-2ffa82e00975" />
+          </propertyInstance>
+          <elementDefinition Id="4d573e4a-1a2a-4b76-a8f7-d2ba51037c8a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="0c4d4b6f-423f-4d07-8d5d-f6b141d82de3">
+          <propertyInstance Id="32ac83be-8b31-41f0-9766-c768f82e1ab2" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="a7f20178-a060-485c-ab98-ee02b00e0c67" />
+          </propertyInstance>
+          <elementDefinition Id="82becfde-031d-4354-b887-1e1b34e19b96" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="b127e600-2a9e-458c-97d8-0052bcae72d3">
+          <propertyInstance Id="76ed6fa7-45e3-4ed6-a389-be0387eaf821" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="4ce6a489-6a1a-4206-91b9-0a077ecd7d65" />
+          </propertyInstance>
+          <elementDefinition Id="365a9493-4dca-4e83-94af-8b17a6f2ebd2" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ceb850fd-98e4-48a9-a6a3-629311ee5499">
+          <propertyInstance Id="13244749-e94c-4fc0-8a65-d41a9addcf45" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="edf4c5bb-a213-4547-8191-fa826aa7d7ef" />
+          </propertyInstance>
+          <elementDefinition Id="21cd359a-bbed-4dc6-b72e-97f474f4c751" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="2deef0da-48d1-4bb0-870a-925b09ac482a">
+          <propertyInstance Id="ee05830c-137d-45dd-9822-1e9b38218653" name="Parameters">
+            <elementDefinition Id="97e4c6e7-518d-49df-8ba8-6c0e54d426ff" />
+          </propertyInstance>
+          <elementDefinition Id="e043de90-11f3-4d30-8a85-48041e23a499" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="f39ae961-d177-4f85-b775-894eb9bfd24e">
+      <profileInstance Id="b8649094-3cba-49eb-8a50-034f6e0a1fc1" name="TextTemplateBindings">
+        <elementDefinition Id="af3b9852-657e-48ce-9892-7c6aa353df09" />
+      </profileInstance>
+      <elementDefinition Id="0761dfab-06c5-45b8-bbe4-b931694487eb" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="405e6471-5e4f-493f-9808-bc5ad754eb76">
+      <profileInstance Id="0248c638-bae6-4124-ad3c-38402fd4a676" name="CSharpProfile">
+        <elementDefinition Id="af5d6dc1-5076-44da-b731-bb17871bbf2b" />
+      </profileInstance>
+      <elementDefinition Id="2528b09d-e573-4de3-af13-85daee38bf98" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2c74c73f-afb5-43e6-ae84-07878f2b704f" name="Русская рулетка" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ab9018a6-e553-4771-9b3e-a2b081e03dfd" />
+        <targetEnds>
+          <association Id="4a009a93-3047-49d1-ad03-3bd6660cdb0b" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" name="Играет в" isAbstract="false">
+            <classMoniker Id="3a514ee2-a720-47f9-a91a-ded14bf6367b" LastKnownName="Игрок" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c69123aa-3cf0-40a9-bf4e-04e55008a007" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f26c6fbc-7696-4196-bedc-3776c0205792" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="31f8b9b3-1bdf-45b7-bbba-77a4601963f2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="3a3ac418-a328-4903-aaf2-946e28837cc6" name="Lower" value="1">
+                      <elementDefinition Id="633e5f03-a58e-4145-bc96-41c9f94d764f" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="7a3c92c7-3c9e-469f-a96d-a1f0acdd10a1" name="Upper" value="1">
+                      <elementDefinition Id="6cddf5d9-eefb-4692-9843-c78dc1468c70" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="3fedcc88-2478-408d-b1cd-32fc5f9de76c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d4c17445-5e55-422b-8445-1c82a593faee" />
+          </association>
+          <association Id="0573b783-1ccc-4868-9229-68b7a6f205db" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" name="Содержит" isAbstract="false">
+            <classMoniker Id="ea9f3184-af72-4f43-a580-6c28417da03c" LastKnownName="Таблица рекордов" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="98ff99d1-b650-4541-9a57-d7d89602fd48" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7e4427e7-a492-41cb-99fc-46e15f6f308f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7c065405-c3c0-47c0-b9f9-05b6771e8654" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4d91270d-9e60-4e45-9d0c-b6ae04e00476" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d3733400-992d-474c-933f-9c40a8f68ad5" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3a514ee2-a720-47f9-a91a-ded14bf6367b" name="Игрок" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="607fb777-2217-4e90-8d28-1eba27ef1168" />
+        <targetEnds>
+          <association Id="fda352ff-03b9-4cf5-9295-5b8200b72b54" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" name="Стреляет в" isAbstract="false">
+            <classMoniker Id="cdd4d7dd-fece-48f9-be5c-4c772614b7d2" LastKnownName="Пистолет" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="aaa9a116-7e1d-4a8c-b811-93f00aca5650" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="867b8d49-3f86-4548-b13b-dd136042eb3a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6d896e04-03a2-4eac-bcb3-12dbbff53158" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f0cafd0b-ebbf-4e7f-b64e-40412b1cdbe7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4198976c-efcf-4631-b149-689e4a214ff6" />
+          </association>
+          <association Id="7f408424-5a16-4dca-870a-7b6865f92ce2" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" name="Входит в" isAbstract="false">
+            <classMoniker Id="ea9f3184-af72-4f43-a580-6c28417da03c" LastKnownName="Таблица рекордов" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="622a0796-f50a-416f-8a28-5eca1ab89f36" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="5db26e05-c9d2-46e2-af39-5802bde6bbf8" name="Lower" value="*">
+                      <elementDefinition Id="af4a1db3-cc3c-49ad-a953-00d6801b56d9" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="b0b222a4-8203-45ec-852c-a4f43d6e69dd" name="Upper" value="*">
+                      <elementDefinition Id="9acbbc45-8885-48b9-883a-e3161a235db1" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="ded0d626-095c-498d-9add-8abb1ff9352c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4c109e7b-f49e-4823-8ecc-122f3ab8000b" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="586b501d-a8d6-43d8-a1af-a69275d06355" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6f4eff07-429e-4b4e-a33d-676ec142efbe" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="8a4cd648-1f30-4a72-a47d-73d8198af339" name="Очки" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7e2a018c-8004-4c10-8eb6-9e1dd541e178" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="cdd4d7dd-fece-48f9-be5c-4c772614b7d2" name="Пистолет" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="de24e04d-8d11-4e51-b09a-4432fadfa96c" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ea9f3184-af72-4f43-a580-6c28417da03c" name="Таблица рекордов" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="05dad2af-af15-4299-bcdc-397be226d35c" />
+        <ownedAttributesInternal>
+          <property Id="4120bc02-113f-453d-b6e4-11af5ea3e755" name="Имя игрока" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d5d9f78b-9def-4b2c-b572-5bd260d62e63" />
+          </property>
+          <property Id="5c8590bc-2df4-498e-843b-bca182328fdb" name="Очки" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9eaf21f9-b11f-4c77-a5af-7eeef39b5c3b" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="dd24dcc6-ba3a-4cdd-a956-116496316473" name="Русская рулетка">
+    <elementDefinition Id="4603ae17-f32c-4a8b-8fa5-2ae56be3c66b" />
+    <profileInstances>
+      <packageHasProfileInstances Id="78b89de3-5664-40ed-86e6-1a670a9bba1c">
+        <profileInstance Id="f67922fb-9ca2-4d99-bece-e2601f9068f0" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="74e50efa-c63d-4a06-a34f-9ad3a30db33b">
+        <profileInstance Id="c96ef950-0b60-4079-acce-f74865388f6d" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

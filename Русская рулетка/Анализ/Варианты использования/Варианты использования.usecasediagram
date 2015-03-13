@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="f97d1b78-4fcb-4052-a4f1-8ce9973140de" name="UMLUseCaseDiagram1" linkedPackageId="21cbab7a-0c99-41d4-8fe5-3d4daf913f26" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="3170d71b-44b7-429c-a089-f953e4d8e2d2">
+      <elementDefinition Id="3c9efe86-fef5-4ca8-bf90-40fbd5848032" />
+      <body>В конце игры заправшивается имя игрока для сохранения результатов</body>
+      <annotatedElements>
+        <useCaseMoniker Id="713d285d-4abc-4d96-b938-19ebda51d6ee" LastKnownName="Сохранение результатов" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="4653b973-89e8-4a41-94ac-fbcc1c13a7f6">
+      <profileInstance Id="191b6d61-024a-43c5-a74e-74e09189cc81" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="3049d70f-3982-481b-b533-e20506a6ec75">
+      <profileInstance Id="636c8fe7-2999-46d2-b9c5-83f07bbaa986" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="83da53b6-bcef-435b-850c-0bb6b3996eef" name="Игрок" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1eb3333d-31f0-4c1c-b1c9-c91484e54966" />
+        <targetEnds>
+          <association Id="b8fd655b-4898-4504-84a2-05217bcb3bd9" isDerived="false" sourceEndRoleName="Игрок" targetEndRoleName="Играть в игру" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="aa20f94f-fc27-4ab3-9395-7dfd0f5bede9" LastKnownName="Играть в игру" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="97d517a1-1456-4096-ba54-60129893580e" name="Игрок" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f0225ebe-41cb-454c-a34f-6f2a2170b19b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9c792efa-17b5-4c42-aa87-9869529255c1" name="Играть в игру" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="493eadef-692d-474e-9881-97ba568afedd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9c9dfa97-4348-44e2-b5e3-68ce002ae6b7" />
+          </association>
+          <association Id="a20516c0-ae51-4ec5-9233-36783fd7c7d9" isDerived="false" sourceEndRoleName="Игрок" targetEndRoleName="Посмотреть результаты" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2cc20397-c139-4d2e-b3d5-a5c98fdaee32" LastKnownName="Посмотреть результаты" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a4f1040f-08ec-4afb-849e-3047b1848dcb" name="Игрок" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c1647998-8726-4ab5-81da-130a10bbc945" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="79f56b58-21fd-4389-89f0-f30eab4cd651" name="Посмотреть результаты" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="01a75a30-ac79-4118-bb86-5f9d4b69604b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a9d8800c-3842-44ef-888d-222bcccd23e9" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="aa20f94f-fc27-4ab3-9395-7dfd0f5bede9" name="Играть в игру" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7c809914-0241-41cf-831b-55621ee43959" />
+        <additions>
+          <include Id="ab728f05-24a6-434a-95f2-ee2462d90591">
+            <useCaseMoniker Id="713d285d-4abc-4d96-b938-19ebda51d6ee" LastKnownName="Сохранение результатов" />
+            <elementDefinition Id="6c0c7992-f53a-4b36-a84a-266f291e1539" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2cc20397-c139-4d2e-b3d5-a5c98fdaee32" name="Посмотреть результаты" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="88541f4b-76cd-423d-b4c7-b6c064dde3eb" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="713d285d-4abc-4d96-b938-19ebda51d6ee" name="Сохранение результатов" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="72e04b17-a716-4221-bd49-e00f3fd5ed2b" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="21cbab7a-0c99-41d4-8fe5-3d4daf913f26" name="Русская рулетка">
+    <elementDefinition Id="4603ae17-f32c-4a8b-8fa5-2ae56be3c66b" />
+  </package>
+</useCaseModelRoot>

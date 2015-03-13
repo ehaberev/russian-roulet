@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5b35b4d4-02c5-4e2b-b7e4-3e1b2f7c1b12}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>Русская рулетка</Name>
+    <RootNamespace>Русская рулетка</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="ModelDefinition\Package_1601.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1603.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Анализ\Варианты использования\Играть в игру.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Анализ\Варианты использования\Играть в игру.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Анализ\Варианты использования\Играть в игру.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="Анализ\Варианты использования\Варианты использования %28расширенный вариант%29.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Анализ\Варианты использования\Варианты использования %28расширенный вариант%29.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Анализ\Варианты использования\Варианты использования (расширенный вариант).usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="Анализ\Варианты использования\Варианты использования.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Анализ\Варианты использования\Варианты использования.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Анализ\Варианты использования\Варианты использования.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="Анализ\Варианты использования\Играть в игру.docx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Анализ\Варианты использования\Посмотреть результаты.docx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Анализ\Модель предметной области.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Анализ\Модель предметной области.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Анализ\Модель предметной области.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Анализ\Системные опрации\Играть в игру %28игрок убивает себя%29.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Анализ\Системные опрации\Играть в игру %28игрок убивает себя%29.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Анализ\Системные опрации\Играть в игру (игрок убивает себя).sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Анализ\Системные опрации\Играть в игру (игрок жив).sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Анализ\Системные опрации\Играть в игру (игрок жив).sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Анализ\Системные опрации\Играть в игру (игрок жив).sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Анализ\Системные опрации\Посмотреть результаты.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Анализ\Системные опрации\Посмотреть результаты.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Анализ\Системные опрации\Посмотреть результаты.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Проектирование\DataLayer.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Проектирование\DataLayer.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Проектирование\DataLayer.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Проектирование\GameLogic.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Проектирование\GameLogic.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Проектирование\GameLogic.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Проектирование\Играть в игру\Играть в игру.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Проектирование\Играть в игру\Играть в игру.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Проектирование\Играть в игру\Играть в игру.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Проектирование\Играть в игру\Сохранить в ТР.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Проектирование\Играть в игру\Сохранить в ТР.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Проектирование\Играть в игру\Сохранить в ТР.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="Проектирование\Компоненты системы.componentdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Проектирование\Компоненты системы.componentdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Проектирование\Компоненты системы.componentdiagram</DependentUpon>
+    </Content>
+    <Content Include="Проектирование\Посмотреть результаты\ПоказатьРекорды.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Проектирование\Посмотреть результаты\ПоказатьРекорды.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Проектирование\Посмотреть результаты\ПоказатьРекорды.sequencediagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\Русская рулетка.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Анализ\Системные опрации" />
+    <Folder Include="Анализ\Варианты использования" />
+    <Folder Include="Проектирование" />
+    <Folder Include="Анализ" />
+    <Folder Include="Проектирование\Посмотреть результаты" />
+    <Folder Include="Проектирование\Играть в игру" />
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="Проектирование\Архитектура системы.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="Проектирование\Архитектура системы.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Проектирование\Архитектура системы.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="Проектирование\Архитектура системы.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>Проектирование\Архитектура системы.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataLayer\DataLayer.csproj">
+      <Name>DataLayer</Name>
+      <Project>{266fbe9c-3631-47a9-bd45-365c65fa70e5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\GameLogic\GameLogic.csproj">
+      <Name>GameLogic</Name>
+      <Project>{31486f31-c93c-40a8-a593-288c0d9bd2a8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Killshot\Killshot.csproj">
+      <Name>Killshot</Name>
+      <Project>{72ce2bce-944b-446f-a7f8-b786cf1b5240}</Project>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
